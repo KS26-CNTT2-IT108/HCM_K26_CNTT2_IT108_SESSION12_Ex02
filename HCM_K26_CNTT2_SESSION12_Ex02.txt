@@ -1,0 +1,34 @@
+SESSION12
+Bài 2 : Chuẩn bị hồ sơ dự án trước khi triển khai hệ thống
+
+Tên lớp: HCM K26 CNTT2
+Môn học: Nhập môn công nghệ thông tin
+Họ và tên: LƯƠNG THANH THƯ
+
+Phần 1. Phân tích
+1. Cấu trúc Heading cho file SRS
+Tài liệu SRS mô tả yêu cầu của module Lớp học ảo thuộc nền tảng PTIT-Learning. Em sử dụng Heading 1 cho tiêu đề chính và Heading 2 cho 10 mục nội dung để dễ quản lý bằng Navigation Pane.
+SRS – Module Lớp học ảo
+
+Giới thiệu; Mục tiêu hệ thống; Phạm vi chức năng; Đối tượng sử dụng; Yêu cầu chức năng; Yêu cầu phi chức năng; Quy trình tham gia lớp học; Giao diện người dung; Bảo mật và phân quyền; Kiểm thử và nghiệm thu
+
+2. Kế hoạch triển khai
+- Word: Gán Heading Styles cho các tiêu đề, mở Navigation Pane để kiểm tra cấu trúc và tạo mục lục tự động. Trước khi lưu, chọn Update entire table.
+- Excel: Quản lý danh sách 200 khóa học hoặc sinh viên bằng bảng dữ liệu có hàng đầu tiên là Header Row. Dùng Ctrl + Shift + L để bật bộ lọc.
+- PowerPoint: Thiết kế slide giới thiệu Lớp học ảo với nền Navy, chữ trắng và điểm nhấn màu cam. Bố cục gồm tiêu đề, nội dung chính và thông tin minh họa.
+
+Phần 2. Triển khai
+1. Word–Soạn thảo SRS
+Tạo tài liệu SRS cho module Lớp học ảo của PTIT-Learning, gồm 10 tiêu đề cấp 2 bằng Heading 2. Sử dụng Navigation Pane để xem và quản lý các mục. Sau khi hoàn thành nội dung, cập nhật mục lục bằng cách chọn Update entire table rồi lưu tài liệu.
+
+2. Excel–Lọc dữ liệu
+Tạo bảng dữ liệu sinh viên với các cột: Mã SV, Họ tên, Khoa và Điểm chuyên cần. Đảm bảo hàng đầu tiên là Header Row và không có hàng tổng cộng nằm giữa dữ liệu. Nhấn Ctrl + Shift + L để bật bộ lọc, chọn khoa CNTT và lọc điểm chuyên cần nhỏ hơn 7 để tìm sinh viên phù hợp.
+
+3. PowerPoint–Thiết kế slide
+Tạo slide giới thiệu tính năng Lớp học ảo với nền màu Navy, chữ trắng và màu cam làm điểm nhấn để nội dung dễ đọc. Bố cục slide gồm 3 vùng: tiêu đề, nội dung chính và hình minh họa. Sử dụng Flowchart để trình bày lộ trình học tập theo thứ tự: Đăng nhập → Chọn lớp → Tham gia buổi học → Hoàn thành buổi học.
+
+Phần 3. Kiểm thử
+Khi lọc theo tên nhưng không có kết quả, dù tên vẫn xuất hiện, nguyên nhân có thể do dữ liệu chứa khoảng trắng thừa.
+
+Cách xử lý: Dùng hàm TRIM để loại bỏ khoảng trắng:
+=TRIM(B2)
